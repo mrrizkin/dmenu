@@ -3,7 +3,7 @@
 
 include config.mk
 
-SRC = drw.c dmenu.c stest.c util.c
+SRC = drw.c dmenu.c stest.c util.c config.h
 OBJ = $(SRC:.c=.o)
 
 all: options dmenu stest
